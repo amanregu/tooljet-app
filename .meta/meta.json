@@ -14,5 +14,13 @@
     "lastpushDate": "2024-04-23T09:28:18.126Z",
     "gitVersionName": "v1",
     "lastCommitUser": "aman "
+  },
+  "85a2a465-4ad8-4e12-9615-859a78ab6eb4": {
+    "gitAppName": "Supply-Chain-Management",
+    "lastCommitMessage": " v1 Version of app Supply-Chain-Management promoted from development to staging",
+    "gitVersionId": "798684d2-10f7-441a-8ac4-cb2a79c8ae31",
+    "lastpushDate": "2024-05-02T11:47:28.338Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "aman "
   }
 }
