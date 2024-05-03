@@ -22,5 +22,13 @@
     "lastpushDate": "2024-05-02T11:47:28.338Z",
     "gitVersionName": "v1",
     "lastCommitUser": "aman "
+  },
+  "440094bf-de6b-44bc-8be5-e5694ab31b9e": {
+    "gitAppName": "Student Enrolment Analysis",
+    "lastCommitMessage": " v1 Version of app Student Enrolment Analysis promoted from development to staging",
+    "gitVersionId": "9014a990-ec51-43d7-89a0-12b91c3e72ef",
+    "lastpushDate": "2024-05-03T08:44:26.465Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "aman "
   }
 }
