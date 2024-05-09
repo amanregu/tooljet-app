@@ -49,10 +49,10 @@
   },
   "7217c0e3-671e-43eb-9ae2-deedb5ef7863": {
     "gitAppName": "HelpDesk Pro Ticketing System",
-    "lastCommitMessage": " v2 Version of app HelpDesk Pro Ticketing System promoted from development to staging",
-    "gitVersionId": "3a297d2f-b8e5-4d54-8098-5d555a490cac",
-    "lastpushDate": "2024-05-09T10:11:59.768Z",
-    "gitVersionName": "v2",
+    "lastCommitMessage": " v3 Version of app HelpDesk Pro Ticketing System promoted from development to staging",
+    "gitVersionId": "a8998228-50c4-48ae-a61f-6346aede5ac2",
+    "lastpushDate": "2024-05-09T10:34:21.796Z",
+    "gitVersionName": "v3",
     "lastCommitUser": "aman "
   }
 }
