@@ -99,22 +99,22 @@
         "appV2": {
           "id": "7217c0e3-671e-43eb-9ae2-deedb5ef7863",
           "type": "front-end",
-          "name": "IT Support Ticketing System",
-          "slug": "7217c0e3-671e-43eb-9ae2-deedb5ef7863",
-          "isPublic": false,
+          "name": "HelpDesk Pro Ticketing System",
+          "slug": "it-ticket",
+          "isPublic": true,
           "isMaintenanceOn": false,
           "icon": "archive",
           "organizationId": "f9260344-ed8a-4c36-add3-eb5d260b147c",
-          "currentVersionId": null,
+          "currentVersionId": "6c2d737d-f740-4ad4-bd1c-969768751247",
           "userId": "f94cdcfb-05fc-422d-9834-a47907f75370",
           "workflowApiToken": null,
           "workflowEnabled": false,
           "createdAt": "2024-05-09T04:22:30.615Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2024-05-09T04:22:30.614Z",
+          "updatedAt": "2024-05-09T10:06:05.384Z",
           "editingVersion": {
-            "id": "6c2d737d-f740-4ad4-bd1c-969768751247",
-            "name": "v1",
+            "id": "3a297d2f-b8e5-4d54-8098-5d555a490cac",
+            "name": "v2",
             "definition": null,
             "globalSettings": {
               "hideHeader": false,
@@ -127,12 +127,12 @@
               "appMode": "auto"
             },
             "showViewerNavigation": true,
-            "homePageId": "a3f44020-28f8-4bb5-bdd0-a51018c94f96",
+            "homePageId": "1cb7f6fa-6126-4a30-ae69-a64f974db645",
             "appId": "7217c0e3-671e-43eb-9ae2-deedb5ef7863",
-            "currentEnvironmentId": "4c54883a-e2dd-4028-b174-d0a8642441c1",
+            "currentEnvironmentId": "fa7511c0-7e30-4d7b-b840-4525d263ce99",
             "promotedFrom": null,
-            "createdAt": "2024-05-09T04:22:30.630Z",
-            "updatedAt": "2024-05-09T10:03:19.046Z"
+            "createdAt": "2024-05-09T10:05:27.233Z",
+            "updatedAt": "2024-05-09T10:05:42.577Z"
           },
           "components": [
             {
@@ -1086,7 +1086,7 @@
               "dataSourceId": "48bf7ac1-b1a7-42bb-a9aa-981191d8be49",
               "appVersionId": "6c2d737d-f740-4ad4-bd1c-969768751247",
               "createdAt": "2024-05-09T08:57:05.056Z",
-              "updatedAt": "2024-05-09T10:00:48.782Z"
+              "updatedAt": "2024-05-09T10:05:22.274Z"
             },
             {
               "id": "19acabc5-d894-4960-ae65-fb5e72d20699",
@@ -1165,7 +1165,7 @@
               "dataSourceId": "48bf7ac1-b1a7-42bb-a9aa-981191d8be49",
               "appVersionId": "6c2d737d-f740-4ad4-bd1c-969768751247",
               "createdAt": "2024-05-09T09:07:58.919Z",
-              "updatedAt": "2024-05-09T10:00:48.780Z"
+              "updatedAt": "2024-05-09T10:05:22.257Z"
             }
           ],
           "dataSources": [
@@ -1200,10 +1200,10 @@
               "showViewerNavigation": true,
               "homePageId": "a3f44020-28f8-4bb5-bdd0-a51018c94f96",
               "appId": "7217c0e3-671e-43eb-9ae2-deedb5ef7863",
-              "currentEnvironmentId": "4c54883a-e2dd-4028-b174-d0a8642441c1",
+              "currentEnvironmentId": "8c53ad69-1293-4389-bfe2-a22716566f98",
               "promotedFrom": null,
               "createdAt": "2024-05-09T04:22:30.630Z",
-              "updatedAt": "2024-05-09T10:03:19.046Z"
+              "updatedAt": "2024-05-09T10:03:40.689Z"
             }
           ],
           "appEnvironments": [
