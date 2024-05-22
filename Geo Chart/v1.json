@@ -1,0 +1,177 @@
+{
+  "tooljet_database": [],
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "id": "4fc80032-8c93-4b97-8642-5a166632c402",
+          "type": "front-end",
+          "name": "Geo Chart",
+          "slug": "4fc80032-8c93-4b97-8642-5a166632c402",
+          "isPublic": false,
+          "isMaintenanceOn": false,
+          "icon": "draghandle",
+          "organizationId": "f9260344-ed8a-4c36-add3-eb5d260b147c",
+          "currentVersionId": null,
+          "userId": "f94cdcfb-05fc-422d-9834-a47907f75370",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2024-05-22T13:23:36.164Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2024-05-22T13:30:17.119Z",
+          "editingVersion": {
+            "id": "b61be8ce-9457-4c71-bb83-3d899a12c1ec",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": false,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": "",
+              "appMode": "auto"
+            },
+            "showViewerNavigation": true,
+            "homePageId": "7d741681-99f4-4329-93a0-40346a45d5a4",
+            "appId": "4fc80032-8c93-4b97-8642-5a166632c402",
+            "currentEnvironmentId": "4c54883a-e2dd-4028-b174-d0a8642441c1",
+            "promotedFrom": null,
+            "createdAt": "2024-05-22T13:23:36.180Z",
+            "updatedAt": "2024-05-22T13:55:44.007Z"
+          },
+          "components": [
+            {
+              "id": "0a441c40-c407-4443-bc20-d3b867cce287",
+              "name": "customcomponent1",
+              "type": "CustomComponent",
+              "pageId": "7d741681-99f4-4329-93a0-40346a45d5a4",
+              "parent": null,
+              "properties": {
+                "code": {
+                  "value": "import React from 'https://cdn.skypack.dev/react';\nimport ReactDOM from 'https://cdn.skypack.dev/react-dom';\nimport { Button, Container } from 'https://cdn.skypack.dev/@material-ui/core';\nimport { Chart } from 'https://cdn.skypack.dev/react-google-charts';\n\nconst mapData = [\n  [\"Country\", \"Popularity\"],\n  [\"Germany\", 200],\n  [\"United States\", 300],\n  [\"Brazil\", 400],\n  [\"Canada\", 500],\n  [\"France\", 600],\n  [\"RU\", 700],\n];\n\nconst MyCustomComponent = ({data, updateData, runQuery}) => (\n  <Container>\n    <Chart\n      chartEvents={[\n        {\n          eventName: \"select\",\n          callback: ({ chartWrapper }) => {\n            const chart = chartWrapper.getChart();\n            const selection = chart.getSelection();\n            if (selection.length === 0) return;\n            const region = mapData[selection[0].row + 1];\n            console.log(\"Selected : \" + region);\n          },\n        },\n      ]}\n      chartType=\"GeoChart\"\n      width=\"100%\"\n      height=\"400px\"\n      data={mapData}\n    />\n    </Container>\n);\nconst ConnectedComponent = Tooljet.connectComponent(MyCustomComponent);\nReactDOM.render(<ConnectedComponent />, document.body);"
+                }
+              },
+              "general": null,
+              "styles": {},
+              "generalStyles": null,
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2024-05-22T13:29:47.809Z",
+              "updatedAt": "2024-05-22T13:29:51.894Z",
+              "layouts": [
+                {
+                  "id": "5e1b3eb2-4962-4e2f-9e28-2e8237016135",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 0,
+                  "width": 43,
+                  "height": 520,
+                  "componentId": "0a441c40-c407-4443-bc20-d3b867cce287",
+                  "updatedAt": "2024-05-22T13:55:39.666Z"
+                },
+                {
+                  "id": "8fa28dfc-d924-4ee9-bb05-1ad9fd287d0f",
+                  "type": "mobile",
+                  "top": 100,
+                  "left": 18.6046511627907,
+                  "width": 20,
+                  "height": 140,
+                  "componentId": "0a441c40-c407-4443-bc20-d3b867cce287",
+                  "updatedAt": "2024-05-22T13:29:47.809Z"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "7d741681-99f4-4329-93a0-40346a45d5a4",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": null,
+              "hidden": null,
+              "createdAt": "2024-05-22T13:23:36.164Z",
+              "updatedAt": "2024-05-22T13:23:36.164Z",
+              "appVersionId": "b61be8ce-9457-4c71-bb83-3d899a12c1ec"
+            }
+          ],
+          "events": [],
+          "dataQueries": [],
+          "dataSources": [],
+          "appVersions": [
+            {
+              "id": "b61be8ce-9457-4c71-bb83-3d899a12c1ec",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": false,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": "",
+                "appMode": "auto"
+              },
+              "showViewerNavigation": true,
+              "homePageId": "7d741681-99f4-4329-93a0-40346a45d5a4",
+              "appId": "4fc80032-8c93-4b97-8642-5a166632c402",
+              "currentEnvironmentId": "4c54883a-e2dd-4028-b174-d0a8642441c1",
+              "promotedFrom": null,
+              "createdAt": "2024-05-22T13:23:36.180Z",
+              "updatedAt": "2024-05-22T13:55:44.007Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "fa7511c0-7e30-4d7b-b840-4525d263ce99",
+              "organizationId": "f9260344-ed8a-4c36-add3-eb5d260b147c",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2024-03-19T12:15:39.765Z",
+              "updatedAt": "2024-03-19T12:15:39.765Z"
+            },
+            {
+              "id": "4c54883a-e2dd-4028-b174-d0a8642441c1",
+              "organizationId": "f9260344-ed8a-4c36-add3-eb5d260b147c",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2024-03-19T12:15:39.765Z",
+              "updatedAt": "2024-03-19T12:15:39.765Z"
+            },
+            {
+              "id": "8c53ad69-1293-4389-bfe2-a22716566f98",
+              "organizationId": "f9260344-ed8a-4c36-add3-eb5d260b147c",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2024-03-19T12:15:39.765Z",
+              "updatedAt": "2024-03-19T12:15:39.765Z"
+            }
+          ],
+          "dataSourceOptions": [],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "2.38.0-ee2.17.0-cloud2.3.13"
+}

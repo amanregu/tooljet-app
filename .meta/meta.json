@@ -62,5 +62,13 @@
     "lastpushDate": "2024-05-14T05:23:52.641Z",
     "gitVersionName": "v1",
     "lastCommitUser": "aman "
+  },
+  "4fc80032-8c93-4b97-8642-5a166632c402": {
+    "gitAppName": "Geo Chart",
+    "lastCommitMessage": " v1 Version of app Geo Chart promoted from development to staging",
+    "gitVersionId": "b61be8ce-9457-4c71-bb83-3d899a12c1ec",
+    "lastpushDate": "2024-05-22T13:55:47.033Z",
+    "gitVersionName": "v1",
+    "lastCommitUser": "aman "
   }
 }
