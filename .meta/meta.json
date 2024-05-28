@@ -73,10 +73,10 @@
   },
   "02fc5ff2-ff23-4c36-9d64-de173ddf7794": {
     "gitAppName": "Text to SQL generator",
-    "lastCommitMessage": " v1 Version of app Text to SQL generator promoted from development to staging",
-    "gitVersionId": "1a5ea0b0-495f-4f54-93a8-ab54d21ea44c",
-    "lastpushDate": "2024-05-26T13:23:02.922Z",
-    "gitVersionName": "v1",
+    "lastCommitMessage": " v2 Version of app Text to SQL generator promoted from development to staging",
+    "gitVersionId": "395559bb-a2dd-4441-b504-724257912c89",
+    "lastpushDate": "2024-05-28T08:45:46.146Z",
+    "gitVersionName": "v2",
     "lastCommitUser": "aman "
   }
 }
